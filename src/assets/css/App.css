@@ -1,0 +1,153 @@
+.bg-light{
+    background-color: #ededed;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.adjust-content{
+    width: 70%;
+    margin: auto;
+}
+.p-5{
+    padding: 3rem;
+}
+.view-1{
+    width: 40%;
+    margin: auto;
+}
+.view-2{
+    width: 80%;
+    margin: auto;
+}
+.input-1{
+    min-height: 34px;
+    background-color: #fff;
+    border: 1px solid #dddd;
+    font-size: 1rem;
+    padding: 4px 6px;
+    color: #000;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    outline: 0;
+    box-sizing: border-box;
+}
+.input-1:focus{
+    border-color: #5798f9;
+    box-shadow: 0 0 0 0.25rem #0d6efd40;
+}
+.text-help{
+    color: #b4b3b3;
+}
+.mt-2{
+    margin-top: 1rem;
+}
+.btn-1{
+    background-color: #5bac5b;
+    border: 1px solid #5bac5b;
+    color: #fff;
+    padding: 8px 0;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.btn-1:hover{
+    background-color: #419e41;
+    cursor: pointer;
+}
+.d-grid{
+    display: grid;
+}
+.mb-5{
+    margin-bottom: 3rem;
+}
+@keyframes spinner {
+    0% {
+      transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    }
+    100% {
+      transform: translate3d(-50%, -50%, 0) rotate(360deg);
+    }
+}
+.spin::before {
+    animation: 1.5s linear infinite spinner;
+    animation-play-state: inherit;
+    border: solid 5px #cfd0d1;
+    border-bottom-color: #1c87c9;
+    border-radius: 50%;
+    content: "";
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+.align-center{
+    text-align: center;
+}
+.error-message{
+    background-color: #ffe4e4;
+    padding: 16px;
+    color: #6a1414;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+.box{
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #cecece;
+}
+.box-header{
+    background-color: #efefef;
+    border-bottom: 1px solid #999;
+    padding: 4px 7px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+h6{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #000;
+    margin: 0;
+}
+.box-body{
+    padding: 6px;
+    color: #999;
+}
+.w-100{
+    width: 100%;
+}
+.table{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000;
+    border-color: #dee2e6;
+    border-collapse: collapse;
+    display: table;
+}
+.table>tbody>tr:nth-of-type(odd){
+    background-color: #eeeeee8b;
+}
+.table tr td,
+.table tr th{
+    padding: 5px;
+}
+table, td, th {
+    border: 1px solid #ccc;
+  }
+.table tr th{
+    font-weight: bold;
+}
+tr{
+    display: table-row;
+}
+th{
+    display: table-cell
+}
+.table-responsive{
+    overflow-x: auto;
+}
