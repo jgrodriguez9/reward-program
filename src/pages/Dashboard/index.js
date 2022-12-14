@@ -17,12 +17,10 @@ function Dashboard(){
             setLoading(false)
         }
         if(isSubscribed) getApiTransactions();
-
         return () => isSubscribed = false;
-    }, [])
+    }, []);
 
     if(loading) return <Spinner />
-
 
     return (
         <div className="d-flex">
@@ -32,7 +30,7 @@ function Dashboard(){
                     <Message message={data.message} />  :
                     <div className="box">
                         <div className="box-header">
-                            <h6>Reward Point Result</h6>
+                            <h6>Reward Points</h6>
                         </div>
                         <RewardPoints data={data.content}/>
                     </div> 
