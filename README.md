@@ -15,7 +15,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app concurrenlty with the json-server in the development mode.\
-Open [http://localhost:3006](http://localhost:3006) to view it in your browser.
+Open [http://localhost:3005](http://localhost:3005) to view it in your browser.
 The server will run in (http://localhost:5000)
 
 The page will reload when you make changes.\
