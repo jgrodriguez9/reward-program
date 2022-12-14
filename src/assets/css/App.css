@@ -11,29 +11,12 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
 }
-  
-
-.bg-light{
-    background-color: #ededed;
-}
-.container{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
 .d-flex{
     display: flex;
     flex-wrap: wrap;
 }
 .justify-content-between{
     justify-content: space-between;
-}
-.adjust-content{
-    width: 70%;
-    margin: auto;
-}
-.p-5{
-    padding: 3rem;
 }
 .view-1{
     width: 40%;
@@ -42,26 +25,6 @@ code {
 .view-2{
     width: 80%;
     margin: auto;
-}
-.input-1{
-    min-height: 34px;
-    background-color: #fff;
-    border: 1px solid #dddd;
-    font-size: 1rem;
-    padding: 4px 6px;
-    color: #000;
-    display: block;
-    width: 100%;
-    border-radius: 4px;
-    outline: 0;
-    box-sizing: border-box;
-}
-.input-1:focus{
-    border-color: #5798f9;
-    box-shadow: 0 0 0 0.25rem #0d6efd40;
-}
-.text-help{
-    color: #b4b3b3;
 }
 .mt-2{
     margin-top: 1rem;
@@ -81,9 +44,6 @@ code {
 }
 .d-grid{
     display: grid;
-}
-.mb-5{
-    margin-bottom: 3rem;
 }
 .error-message{
     background-color: #ffe4e4;
@@ -109,10 +69,6 @@ h6{
     font-size: 1rem;
     color: #000;
     margin: 0;
-}
-.box-body{
-    padding: 6px;
-    color: #999;
 }
 .w-100{
     width: 100%;
