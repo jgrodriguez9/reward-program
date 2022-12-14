@@ -1,5 +1,6 @@
 import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react';
+import { BrowserRouter } from 'react-router-dom';
 import { TableMonth } from '..';
 
 const data = [
@@ -19,7 +20,7 @@ const data = [
 
 describe("TableMonth component", () => {
     it('Should render a table month and customer Jhon Yong', () => {
-        render(<TableMonth data={data}/>)
+        render(<BrowserRouter><TableMonth data={data}/></BrowserRouter>)
 
         const table = screen.getByRole('table')
         expect(table).toBeInTheDocument();

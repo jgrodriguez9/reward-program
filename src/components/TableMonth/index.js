@@ -1,7 +1,7 @@
+import { Link } from "react-router-dom"
 import { Table } from "../Common/Table"
 
 function TableMonth({data}){
-
     return (
         <div className='d-flex'>
             <div className='w-100'>
@@ -21,7 +21,7 @@ function TableMonth({data}){
                         {
                             data.map((item, index) => (
                                 <tr key={index}>
-                                    <td>{item.name}</td>
+                                    <td><Link to={`/customer/${item.custid}`} className="link">{item.name}</Link></td>
                                     <td>{item.month}</td>
                                     <td>{item.numTransactions}</td>
                                     <td>{item.points}</td>

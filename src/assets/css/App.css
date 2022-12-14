@@ -25,6 +25,9 @@ code {
     display: flex;
     flex-wrap: wrap;
 }
+.justify-content-between{
+    justify-content: space-between;
+}
 .adjust-content{
     width: 70%;
     margin: auto;
@@ -114,33 +117,10 @@ h6{
 .w-100{
     width: 100%;
 }
-.table{
-    width: 100%;
-    margin-bottom: 1rem;
-    color: #000;
-    border-color: #dee2e6;
-    border-collapse: collapse;
-    display: table;
+.link {
+    color: #0967f3;
+    text-decoration: none;
 }
-.table>tbody>tr:nth-of-type(odd){
-    background-color: #eeeeee8b;
-}
-.table tr td,
-.table tr th{
-    padding: 5px;
-}
-table, td, th {
-    border: 1px solid #ccc;
-  }
-.table tr th{
-    font-weight: bold;
-}
-tr{
-    display: table-row;
-}
-th{
-    display: table-cell
-}
-.table-responsive{
-    overflow-x: auto;
+.link:hover{
+    text-decoration: underline;
 }

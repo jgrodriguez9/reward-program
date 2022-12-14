@@ -4,6 +4,7 @@ import { Dashboard } from './pages/Dashboard';
 
 import './assets/css/App.css'
 import './assets/css/Media.css'
+import { Customer } from './pages/Customer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Layout>
         <Routes>
          <Route path='/' element={<Dashboard />} />
+         <Route path='/customer/:id' element={<Customer />} />
         </Routes>
       </Layout>
     </BrowserRouter>
