@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Layout } from './components/Layout';
-import { Dashboard } from './components/Dashboard';
+import { Dashboard } from './pages/Dashboard';
 
 import './assets/css/App.css'
 import './assets/css/Media.css'

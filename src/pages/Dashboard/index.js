@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
 import { getRewardPoint } from "../../services/transactionsService"
-import { Message } from "../Message";
-import { RewardPoints } from "../RewardPoints";
-import { Spinner } from "../Spinner";
+import { Message } from "../../components/Message";
+import { RewardPoints } from "../../components/RewardPoints";
+import { Spinner } from "../../components/Spinner";
 
 function Dashboard(){
     const [loading, setLoading] = useState(true);

@@ -1,18 +1,16 @@
 import { useGetRewardPoints } from "../../hooks/useGetRewardPerMonth"
 import { TableMonth } from "../TableMonth"
 import { TableTotal } from "../TableTotal"
+import { Wrapper } from "./Wrapper"
 
 function RewardPoints({data}) {
-    const {summaryPerMonth, summaryByCustomer} = useGetRewardPoints(data)
-
-    console.log(summaryPerMonth)
-    
+    const {summaryPerMonth, summaryByCustomer} = useGetRewardPoints(data)    
 
     return (
-        <div className="box-body">
+        <Wrapper>
             <TableMonth data={summaryPerMonth}/>
             <TableTotal data={summaryByCustomer} />
-        </div>
+        </Wrapper>
     )
 }
 
